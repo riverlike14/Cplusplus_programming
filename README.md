@@ -10,7 +10,7 @@ I also uploaded solutions to the exercise problems, which I did not refer to the
 
 The following chapters are main topic that the book covers.
 
-1. C++ based on C language 1
+1. C++ based on C language 1 (Currently working on function overloading)
 2. C++ based on C language 2
 3. Class basic
 4. Class completion
