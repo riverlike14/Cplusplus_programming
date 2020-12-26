@@ -10,9 +10,9 @@ I also uploaded solutions to the exercise problems, which I did not refer to the
 
 The following chapters are main topic that the book covers.
 
-1. C++ based on C language 1 (Currently working on section 3)
+1. C++ based on C language 1
 2. C++ based on C language 2
-3. Class basic
+3. Class basic (Currently working on here...)
 4. Class completion
 5. Copy Constructor
 6. friend, static, and const
