@@ -4,7 +4,7 @@ using namespace std;
 
 bool Point::InitMembers(int xpos, int ypos)
 {
-	if (xpos < 0 || ypos < 0 || x > 100 || y > 100)
+	if (xpos < 0 || ypos < 0 || xpos > 100 || ypos > 100)
 	{
 		cout << "x or y is not in the proper range..." << endl;
 		return false;
