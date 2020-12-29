@@ -8,7 +8,7 @@ private:
 	int y;
 
 public:
-	bool InitMembers(int xpos, int ypox);
+	bool InitMembers(int xpos, int ypos);
 	int GetX() const;
 	int GetY() const;
 	bool SetX(int xpos);
