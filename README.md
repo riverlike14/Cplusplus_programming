@@ -13,8 +13,8 @@ The following chapters are main topic that the book covers.
 1. C++ based on C language 1
 2. C++ based on C language 2
 3. Class basic (Complete)
-4. Class completion (Currently working on here...)
-5. Copy Constructor
+4. Class completion (Complete)
+5. Copy Constructor (Currently working on here...)
 6. friend, static, and const
 7. Inheritance
 8. Inheritance and polymorphism
