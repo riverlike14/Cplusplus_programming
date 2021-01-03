@@ -20,6 +20,7 @@ public:
 	bool Withdraw(int money);
 	void ShowInfo() const;
 	bool AccountIDCheck(int accountID);
+	~Account();
 };
 
 #endif

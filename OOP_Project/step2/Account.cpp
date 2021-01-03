@@ -41,3 +41,8 @@ bool Account::AccountIDCheck(int accountID)
 {
 	return (this->accountID == accountID);
 }
+
+Account::~Account()
+{
+	delete []name;
+}
