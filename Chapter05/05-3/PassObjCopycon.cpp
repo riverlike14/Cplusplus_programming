@@ -14,7 +14,7 @@ public:
 	SoSimple(const SoSimple &copy)
 		:num(copy.num)
 	{
-		cout << "Called SoSImple(const SoSimple &copy)" << endl;
+		cout << "Called SoSimple(const SoSimple &copy)" << endl;
 	}
 
 	void ShowData() const
