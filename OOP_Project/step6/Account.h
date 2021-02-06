@@ -12,8 +12,9 @@ public:
 	Account(int newID, char* newName, int money);
 	Account(const Account& ref);
 
-	void Deposit(int money);
-	bool Withdraw(int money);
+	virtual int Deposit(int money);
+	int Withdraw(int money);
+	int GetBalance();
 	void ShowInfo() const;
 	bool AccountIDCheck(int accountID) const;
 	~Account();

@@ -17,24 +17,23 @@ Account::Account(const Account& ref)
 	strcpy(name, ref.name);
 }
 
-void Account::Deposit(int money)
+virtual void Account::Deposit(int money)
 {
 	balance += money;
-	cout << money << " dollars has been deposited." << endl;
 }
 
-bool Account::Withdraw(int money)
+int Account::Withdraw(int money)
 {
-	if (money > balance) {
-		cout << "Not enough money in the balance..." << endl;
-		return false;
-	}
+	if (money > balance) 
+		return 0;
 
 	balance -= money;
-	cout << money << " dollar has been withdrawan." << endl;
-	cout << balance << " dollar remains." << endl;
+	return money;
+}
 
-	return true;
+int Account::GetBalance()
+{
+	return balance;
 }
 
 void Account::ShowInfo() const

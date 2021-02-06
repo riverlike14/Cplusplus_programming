@@ -6,9 +6,6 @@ using namespace std;
 int main()
 {
 	int button;
-	int accountID;
-	char* name = new char[30];
-	int money;
 
 	AccountHandler manager;
 
@@ -20,26 +17,15 @@ int main()
 		
 		switch (button) {
 			case CREATE:
-				cout << "[CREATE]" << endl;
-				cout << "Account ID: "; cin >> accountID;
-				cout << "Name: "; cin >> name;
-				cout << "Deposit: "; cin >> money;
-				manager.CreateAccount(accountID, name, money);
+				manager.CreateAccount();
 				break;
 			case DEPOSIT:
-				cout << "[DEPOSIT]" << endl;
-				cout << "Account ID: "; cin >> accountID;
-				cout << "Money to deposit: "; cin >> money;
-				manager.DepositMoney(accountID, money);
+				manager.DepositMoney();
 				break;
 			case WITHDRAW:
-				cout << "[WITHDRAW]" << endl;
-				cout << "Account ID: "; cin >> accountID;
-				cout << "Money to withdraw: "; cin >> money;
-				manager.WithdrawMoney(accountID, money);
+				manager.WithdrawMoney();
 				break;
 			case INQUIRE:
-				cout << "[INFORMATION]" << endl;
 				manager.ShowAllAccountInfo();
 				break;
 			case EXIT:
@@ -53,6 +39,5 @@ int main()
 	}
 
 ExitProgram:
-	delete []name;
 	return 0;
 }

@@ -6,11 +6,13 @@
 class NormalAccount: public Account
 {
 private:
-	double interest;
+	int interest;
 
 public:
-	NormalAccount(int accountID, char* name, int money, double interest);
-	void Deposit(int money);
+	NormalAccount(int accountID, char* name, int money, int interest);
+	NormalAccount(const NormalAccount& ref);
+
+	virtual void Deposit(int money);
 };
 
 #endif

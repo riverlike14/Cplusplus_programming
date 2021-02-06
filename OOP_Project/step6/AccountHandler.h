@@ -3,10 +3,6 @@
 
 #include "Account.h"
 
-enum {
-	CREATE=1, DEPOSIT, WITHDRAW, INQUIRE, EXIT
-};
-
 class AccountHandler
 {
 private:
