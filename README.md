@@ -16,15 +16,15 @@ The following chapters are main topic that the book covers.
 4. Class completion (Complete)
 5. Copy Constructor (Complete)
 6. friend, static, and const (Complete)
-7. Inheritance (Currently working on here...)
-8. Inheritance and polymorphism
-9. Principle of virtual, and multiple inheritance
-10. Operator overloading 1
-11. Operator overloading 2
-12. Design of string class
-13. Template 1
-14. Template 2
-15. Exception Handling
-16. Type casting operator of c++
+7. Inheritance (Complete)
+8. Inheritance and polymorphism (Complete)
+9. Principle of virtual, and multiple inheritance (Complete)
+10. Operator overloading 1 (Complete)
+11. Operator overloading 2 (Complete)
+12. Design of string class (Complete)
+13. Template 1 (Complete)
+14. Template 2 (Complete)
+15. Exception Handling (Complete)
+16. Type casting operator of c++ (Complete)
 
 All rights are reserved to the author(ripeness21@gmail.com)
